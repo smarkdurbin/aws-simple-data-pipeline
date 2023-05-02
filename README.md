@@ -18,7 +18,7 @@ NOTE: Using Amazon Web Services (AWS) costs money. If you create an AWS account 
 
 Follow the step-by-step instructions that follow to build this simple data pipeline using Amazon S3 and AWS Lambda:
 
-{ RESOURCE DIAGRAM }
+<img src="./diagram.png" alt="Data pipeline diagram" />
 
 The data pipeline will ingest the JSON data files uploaded to the input bucket, remove metadata, select specific columns from the data, and output a CSV file to the output bucket. The outputted file will contain the name and extension of the input file, suffixed with a timestamp (Ex: mock-api-data.json__20230101_120000).
 
