@@ -1,6 +1,6 @@
 # aws-simple-data-pipeline
 
-This repository contains Python code, IAM permissions policies, mock API data, and instructions for creating a simple data pipeline using Amazon S3 and AWS Lambda.
+This repository contains instructions for creating a simple data pipeline using Amazon S3 and AWS Lambda.
 
 Skill level: Beginner
 
